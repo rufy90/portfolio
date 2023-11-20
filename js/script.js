@@ -12,10 +12,9 @@ function mostrarOcultarMenu(){
 
 function seleccionar(){
     //oculto el menu una vez que selecciono una opcion
-    document.getElementById("nav").classList ="";
+    document.getElementById("nav").classList = "";
     menuVisible = false;
 }
-
 //Funcion que aplica las animaciones de las habilidades
 function efectoHabilidades(){
     var skills = document.getElementById("skills");

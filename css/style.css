@@ -498,12 +498,14 @@ footer .social a {
 footer .social a:hover{
     background-color: #1cb698;
 }
-/* RESPONSIVE SECTION */@media screen and (max-width:980px){
+/* RESPONSIVE SECTION */
+@media screen and (max-width:980px){
     nav{
         display: none;
     }
     .nav-responsive{
         display: block;
+        font-size: 20px;
     }
     nav.responsive{
         display: block;
@@ -512,6 +514,7 @@ footer .social a:hover{
         top: 75px;
         background-color: #252A2E;
         width: 180px;
+        font-size: 20px;
     }
     nav.responsive ul{
         display: block !important;
