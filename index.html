@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- MENU HEADER -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Rufy</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#start" onclick="selection()">Inicio</a></li>
+                    <li><a href="#aboutme" onclick="selection()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="selection()">Habilidades</a></li>
+                    <li><a href="#contact" onclick="selection()">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- START SECTION -->
+    <section id="start" class="start">
+        <div class="content-banner">
+            <div class="content-img">
+                <img src="assets/photo.jpg" alt="personalPhoto">
+                <h1>Rufino Carranza</h1>
+                <h3>Web Developer - Frontend</h3>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/rufinocarranza90/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/+50375894242" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="aboutme" class="aboutme">
+        <div class="content-section">
+            <h2>Sobre mí!</h2>
+            <p><span>Hola, Soy Rufino Carranza. </span>Soy desarrollador de páginas web, me considero una persona que se
+                esfuerza por ser autodidacta y colaborativa. Deseo continuar creciendo en mi aprendizaje. Mi mayor meta
+                es trabajar como desarrollador.</p>
+
+            <div class="fila">
+                <!-- PERSONAL INFORMATION -->
+                <div class="col">
+                    <h3>Información personal</h3>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            2401 0059
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            carranzarufino90@gmail.com
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Sonsonate, El Salvador.
+                        </li>
+                    </ul>
+                </div>
+                <!-- INTEREST INFORMATION -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="content-interest">
+                        <div class="interest">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Carros</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>Motos</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-umbrella-beach"></i>
+                            <span>Playa</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Camaras</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajes</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-utensils"></i>
+                            <span>Comidas</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Leer</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>Pc</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Ejercicios</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-tree"></i>
+                            <span>Montañas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="assets/Resume.pdf" target="_blank" download="CV-RufinoCarranza.pdf">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                </a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="fila">
+
+                <div class="col">
+                    <h3>Habilidades tecnicas</h3>
+                    <div class="skill">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-css3"></i>
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-square-js"></i>
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-react"></i>
+                        <span>ReactJs</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-wordpress"></i>
+                        <span>WordPress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-database"></i>
+                        <span>Firebase & MySQL & MariaDB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Inglés</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="content-section">
+            <h2>Contacto</h2>
+
+            <div class="fila">
+                <!-- Form -->
+                <div class="col">
+                    <form action="https://formsubmit.co/carranzarufino90@gmail.com" method="post">
+                        <input type="text" name="name" placeholder="Tu nombre">
+                        <input type="text" name="celular" placeholder="Numero telefonico">
+                        <input type="text" name="email" placeholder="E-mail">
+                        <input type="text" placeholder="Asunto">
+                        <textarea name="comment" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button> 
+                    </form>
+                </div>
+
+                <!-- Map -->
+                <div class="col">
+                    <img src="assets/location.jpg" alt="sonsonateLocation">
+
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                Sonsonate, El Salvador
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                                2401 0059
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                carranzarufino90@gmail.com
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <a href="https://wa.me/+50375894242" target="_blank">Escribenos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#start" class="up"><i class="fa-solid fa-angles-up"></i></a>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/rufinocarranza90/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/+50375894242" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
