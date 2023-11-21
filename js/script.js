@@ -41,13 +41,29 @@ window.onscroll = function(){
 }
 //FORM VALIDATION
 function validateForm() {
-  let c = document.forms["myForm"]["email"].value;
-  let d = document.forms["myForm"]["asunto"].value;
-  let e = document.forms["myForm"]["comment"].value;
-  if (a || b || c || d || e == "") {
+  let e = document.forms["myForm"]["email"].value;
+  let a = document.forms["myForm"]["asunto"].value;
+  let c = document.forms["myForm"]["comment"].value;
+  if (e == "") {
         Swal.fire({
         title: "Error",
-        text: "Debes llenar los campos requeridos!!!",
+        text: "Debes llenar el campo email",
+        icon: "error"
+        });
+        return false;
+  }
+  if (a == "") {
+        Swal.fire({
+        title: "Error",
+        text: "Debes llenar el campo asunto",
+        icon: "error"
+        });
+        return false;
+  }
+  if (c == "") {
+        Swal.fire({
+        title: "Error",
+        text: "Debes llenar el campo comentario",
         icon: "error"
         });
         return false;
