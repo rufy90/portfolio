@@ -48,7 +48,7 @@ function validateForm() {
     // alert("Por favor, rellene todos los campos!");
         Swal.fire({
         title: "Error",
-        text: "Debes llenar los campos requeridos!",
+        text: "Debes llenar los campos requeridos!!!",
         icon: "error"
         });
         return false;
