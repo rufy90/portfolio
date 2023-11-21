@@ -45,7 +45,6 @@ function validateForm() {
   let d = document.forms["myForm"]["asunto"].value;
   let e = document.forms["myForm"]["comment"].value;
   if (a || b || c || d || e == "") {
-    // alert("Por favor, rellene todos los campos!");
         Swal.fire({
         title: "Error",
         text: "Debes llenar los campos requeridos!!!",
