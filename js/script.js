@@ -39,3 +39,20 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 }
+//FORM VALIDATION
+function validateForm() {
+  let a = document.forms["myForm"]["name"].value;
+  let b = document.forms["myForm"]["celular"].value;
+  let c = document.forms["myForm"]["email"].value;
+  let d = document.forms["myForm"]["asunto"].value;
+  let e = document.forms["myForm"]["comment"].value;
+  if (a || b || c || d || e == "") {
+    // alert("Por favor, rellene todos los campos!");
+    Swal.fire({
+    title: "Error",
+    text: "Debes llenar todos los campos",
+    icon: "error"
+    });
+        return false;
+  }
+}
